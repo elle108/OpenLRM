@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 21
+names: ['E1', 'E2', 'E3', 'E4', 'L-E1', 'L-F', 'L-G1', 'L-G2', 'L-G3', 'L-G4', 'L-G5', 'L-G6', 'L-R', 'R-E1', 'R-F', 'R-G1', 'R-G2', 'R-G3', 'R-G4', 'R-G5', 'R-R']
+
+roboflow:
+  workspace: nimble-4fdd8
+  project: detect-antler-oyd7s
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nimble-4fdd8/detect-antler-oyd7s/dataset/3
